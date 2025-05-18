@@ -37,12 +37,12 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-y-3">
             <div className="flex justify-center items-center">
-              <img className="w-full h-auto object-contain" src="/images/general/home-img01.svg" alt="img01" loading="lazy"/>
+              <img className="w-full h-auto object-contain" src="/images/general/home-img01.svg" alt="img01" height={595} width={429} loading="lazy"/>
             </div>
             <div className="flex gap-x-3 items-center">
-              <img className="w-full h-auto object-contain" src="/images/general/home-img02.svg" alt="img02" loading="lazy"/>
-              <img className="w-full h-auto object-contain" src="/images/general/home-img03.svg" alt="img03" loading="lazy"/>
-              <img className="w-full h-auto object-contain" src="/images/general/home-img04.svg" alt="img04" loading="lazy"/>
+              <img className="w-full h-auto object-contain" src="/images/general/home-img02.svg" alt="img02" height={208} width={189} loading="lazy"/>
+              <img className="w-full h-auto object-contain" src="/images/general/home-img03.svg" alt="img03" height={208} width={189} loading="lazy"/>
+              <img className="w-full h-auto object-contain" src="/images/general/home-img04.svg" alt="img04" height={208} width={189} loading="lazy"/>
             </div>
           </div>
         </div>
